@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<cloudbees-web-app xmlns="http://www.cloudbees.com/xml/webapp/1">
+    <appid>teamhalcon/matriculaalumnos</appid>  
+  <resource name="jdbc/my-db" auth="Container" type="javax.sql.DataSource">
+    <param name="username" value="teamhalcon" />
+    <param name="password" value="teamhalcon" />
+    <param name="url" value="jdbc:mysql://ec2-23-21-211-172.compute-1.amazonaws.com:3306/cadsoft" />
+  </resource>
+</cloudbees-web-app>
